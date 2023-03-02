@@ -1,0 +1,157 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#oscuro{
+    border-radius: 50px;
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+    font-size: 4.5em ;
+   
+}
+
+img{
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 
+
+*/nav{
+    
+    background-color:#A47786;
+    
+    
+    
+}
+
+nav div a img {
+    width:18px;
+    height:18px
+}
+
+
+
+main{
+
+    background-color: #E4D4C8;
+    
+
+}
+
+.modoOscuro{
+    background-color: #484746;
+    
+}
+
+.modoOscuro2{
+
+    color:#E4D4C8;
+
+}
+
+
+
+section{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+section.sobremi{
+    display: flex;
+    flex-direction: row;
+    align-items: self-end;
+    justify-content: space-evenly;
+}
+
+img{
+    border-radius: 90px 90px 20px 20px
+}
+
+.agrandar{
+    width: 40vw
+}
+
+div.sobremi {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+ul.datospersonales {
+    list-style: none;
+}
+
+ul.datospersonales li {
+    
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    
+    
+}
+div ul li {
+    font-size: 15px;
+}
+
+div ul {
+    list-style: none;
+}
+div.titulo{
+    padding: 30px;
+}
+
+.nombre{
+    font-size: 4rem;
+}
+
+
+div.tarjeta{
+    width: 60vw;
+    border: 0.1px dotted gainsboro;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color:  #9DB6CC;
+    
+
+}
+
+div.datosp{
+    background-color: #DFE9F3;
+    border-radius: 10px 30px;
+    padding: 3px;
+    margin: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 30vw
+}
+
+
+div.borde1{
+    border-radius: 50px 15px
+}
+
+div.borde2{
+    border-radius: 15px 50px;
+}
+
+.card-title{
+    font-size: 2rem;
+    font-weight: 500;
+   
+}
+
+section.habilidades{
+    margin-top: 15px;
+}
+
+footer{
+    background-color: #A47786;
+}
